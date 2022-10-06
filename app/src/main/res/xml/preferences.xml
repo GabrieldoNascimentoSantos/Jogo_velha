@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.EditTextPreference
+        android:key="simb_jog1"
+        android:title="Simbolo Jogador 1"
+        android:summary="Escolha o simbolo do Jogador 1"/>
+
+    <androidx.preference.EditTextPreference
+        android:key="simb_jog2"
+        android:title="Simbolo Jogador 2"
+        android:summary="Escolha o simbolo do Jogador 2"/>
+</androidx.preference.PreferenceScreen>

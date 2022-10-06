@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jogo da velha App</string>
+    <string name="action_settings">Settings</string>
+    <string name="jogador1">Jogador 1 {%1$s}</string>
+    <string name="jogador2">Jogador 2 {%1$s}</string>
+    <string name="velha">Velha</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="venceu">Parabéns!!! Você foi o vencedor</string>
+    <string name="empate">Deu Velha</string>
+    <string name="resetar">Zerar o placar</string>
+    <string name="tela_inicial">Voltar á tela inicial</string>
+    <string name="preferencias">Preferências</string>
+    <string name="botaoIni">Iniciar</string>
+    <string name="txtbotao">sans-serif</string>
+    <string name="footer">Feito por Gabriel</string>
+</resources>

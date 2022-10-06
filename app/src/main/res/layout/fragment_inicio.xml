@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentInicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/velha"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btIniciar"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoIni"
+            android:fontFamily="@string/txtbotao"
+            android:background="@color/vermelho"
+            android:textColor="@color/white">
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/footer"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</FrameLayout>
